@@ -1,0 +1,229 @@
+h2{
+  font-family: "Montserrat";
+  font-weight: 900;
+  text-align: center;
+  margin-top: 5%;
+}
+
+h3{
+  font-family: "Montserrat";
+  font-weight: 400;
+  text-align: center;
+  margin-top: 5%;
+}
+
+ iframe{
+   -webkit-filter: grayscale(100%);
+   -moz-filter: grayscale(100%);
+   -ms-filter: grayscale(100%);
+   -o-filter: grayscale(100%);
+   filter: grayscale(100%);
+}
+
+ul {
+  margin-bottom: 0;
+}
+
+/* Navbar */
+
+.nav-title {
+font-family: "Lato";
+font-weight: 900;
+font-size: 3.5rem;
+color: #fff;
+width: 50%;
+margin-right: 50px;
+}
+
+.nav-title:hover {
+  text-decoration: none;
+  color: #fff;
+}
+
+.container-fluid {
+  padding: 2.5% 12.5% 5%;
+  background-color: #343A40;
+}
+
+.nav-item {
+  font-family: "Lato";
+  font-weight: 400;
+  font-size: 1.2rem;
+  color: #777777;
+  margin: 0 2rem;
+}
+
+.nav-item:hover {
+  color: #E2E2E2;
+  text-decoration: none;
+}
+
+/* Title Section */
+
+.title-container {
+  padding: 8% 2.5% 4%;
+  color: #fff;
+}
+
+.title {
+  font-family: "Montserrat";
+  font-weight: 900;
+}
+
+.navbarToggler{
+  float: right;
+}
+
+.hat-img {
+  position: absolute;
+  right: 25%;
+  top: 15%;
+  width: 40%;
+  z-index: 0;
+}
+
+/* About Section */
+#about {
+  position: relative;
+  background-color: #fff;
+  z-index: 1;
+}
+
+.about-title {
+  margin-top: 0;
+  padding-top: 5%;
+}
+
+.about-info {
+  margin: 5% 30%;
+  font-family: "Montserrat";
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.about-header {
+  font-family: "Montserrat";
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.about-img{
+  border-radius: 100%;
+  shape-outside: circle(50%);
+  float: left;
+  width: 45%;
+}
+
+.about-img-r {
+  border-radius: 100%;
+  shape-outside: circle(50%);
+  float: right;
+  width: 45%;
+}
+
+/* Channels Section */
+
+#channels {
+  background-color: #AAAAAA;
+  padding: 2.5%;
+  color: #fff;
+}
+
+.vid-container {
+  position: relative;
+  width: 100%;
+  padding-bottom: 30.25%;
+  height: 0;
+}
+
+.vid-container iframe{
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  width: 80%;
+  height: 80%;
+}
+
+/* Merch Section */
+
+#carousel {
+  margin: 0 30% 5%;
+  width: 40%;
+}
+
+.carousel-indicators li{
+  background-color: #000;
+}
+
+.carousel-indicators .active{
+  background-color: #AAAAAA;
+}
+
+/* Contact Section */
+
+.contact-container {
+  text-align: center;
+  background-color: #343A40;
+}
+
+.contact-item {
+  list-style-type: none;
+  display: inline-block;
+  margin: 2.5%;
+  text-decoration: none;
+  color: #343A40;
+}
+
+.fab {
+  text-decoration: none;
+  color: #AAAAAA;
+}
+
+.fab:hover {
+  color: #fff;
+}
+
+/* Footer Section */
+
+#footer {
+  background-color: #343A40;
+  color: #AAAAAA;
+  margin-bottom: 0;
+}
+
+.copyright {
+  text-align: center;
+  margin-bottom: 0;
+  padding-bottom: 40px;
+}
+
+/* Reactive CSS */
+
+@media (max-width: 991px) {
+
+  .title {
+    text-align: center;
+  }
+
+  .vid-container {
+    padding-bottom: 56.25%;
+  }
+
+  .hat-img {
+    display: none;
+  }
+}
+
+@media (max-width: 576px) {
+  .about-img {
+    float: none;
+  }
+
+  .about-info {
+    margin: 10% 20%;
+  }
+
+  .about-img-r {
+    float: none;
+  }
+}
